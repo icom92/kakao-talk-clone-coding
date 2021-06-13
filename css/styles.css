@@ -6,14 +6,18 @@
 /* Components */
 @import url("components/status-bar.css");
 @import url("components/nav-bar.css");
+@import url("components/screen-header.css");
+@import url("components/user-components.css");
 
 /* Screens */
 @import url("screens/login.css");
+@import url("screens/friends.css");
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
   font-size: 16px;
   height: 1000vh;
+  color: #2e363e;
 }
 
