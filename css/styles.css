@@ -9,16 +9,16 @@
 @import url("components/screen-header.css");
 @import url("components/user-components.css");
 @import url("components/badge.css");
+@import url("components/icon-row.css");
 
 /* Screens */
 @import url("screens/login.css");
 @import url("screens/friends.css");
 @import url("screens/find.css");
+@import url("screens/more.css");
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
   height: 1000vh;
   color: #2e363e;
 }
