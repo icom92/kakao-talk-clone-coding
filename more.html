@@ -29,7 +29,7 @@
     <div class="screen-header__icons">
       <span><i class="fas fa-search fa-lg"></i></span>
       <span><i class="fas fa-music fa-lg"></i></span>
-      <span><i class="fas fa-cog fa-lg"></i></span>
+      <span class="pointer-cover"><a href="setting.html"><span class="nav__update"></span><i class="fas fa-cog fa-lg"></i></a></span>
     </div>
   </header>
 
@@ -40,7 +40,7 @@
         <img class="user-component__avatar user-component__avatar--xl" src="img/avatar.jpeg" alt="photo" />
         <div class="user-component__text">
           <h4 class="user-component__title">Dongdong</h4>
-          <h6 class="user-component__subtitle">+82 010-9108-2025</h6>
+          <h6 class="user-component__subtitle">+82 010-9108-2025 <i class="fas fa-exclamation-circle"></i></h6>
         </div>
       </div>
       <div class="user-component__column">
@@ -52,8 +52,9 @@
         <i class="far fa-calendar-alt"></i>
         <span>Calendar</span>
       </div>
-      <div class="icon-row__icon">
-        <i class="far fa-grin-squint"></i>
+      <div class="icon-row__icon pointer-cover">
+          <span class="pointer"></span>
+          <i class="far fa-grin-squint"></i>
         <span>Emoticons</span>
       </div>
       <div class="icon-row__icon">
@@ -63,6 +64,23 @@
       <div class="icon-row__icon">
         <i class="fas fa-file-invoice-dollar"></i>
         <span>Acconut</span>
+      </div>
+    </div>
+    <div class="more-suggestions">
+      <h4 class="more-suggestions__title">Suggestions</h4>
+      <div class="more-suggestions__icons">
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image">
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <span class="more-suggestions__icon-text">Kokoa Story</span>
+        </div>
+        <div class="more-suggestions__icon">
+          <div class="more-suggestions__icon-image">
+            <i class="fas fa-quote-right"></i>
+          </div>
+          <span class="more-suggestions__icon-text">Kokoa Story</span>
+        </div>
       </div>
     </div>
   </main>
@@ -90,6 +108,10 @@
       </li>
     </ul>
   </nav>
+
+  <div id="no-mobile">
+    This App use only Mobile
+  </div>
 
   <script src="https://kit.fontawesome.com/b351902abf.js" crossorigin="anonymous"></script>
 </body>

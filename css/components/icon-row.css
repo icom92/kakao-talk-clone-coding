@@ -16,3 +16,19 @@
 .icon-row span {
   margin-top: 18px;
 }
+
+.pointer-cover {position: relative;}
+.icon-row .pointer {
+  right: 15px;
+  top: -20px;
+}
+.pointer {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: block;
+  position: absolute;
+  right: -5px;
+  top:-10px;
+}
